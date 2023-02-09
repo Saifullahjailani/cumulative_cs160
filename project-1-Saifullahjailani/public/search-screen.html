@@ -1,0 +1,146 @@
+<!-- Referenced: https://www.w3schools.com/html/html_responsive.asp-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/home_screen.css" />
+  <link rel="stylesheet" type="text/css" href="/css/search-screen.css" />
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+</head>
+
+<body id="b">
+
+
+  <div class="custom" id="alert">
+    <h1 class="">
+      A panda ahead.
+    </h1>
+  </div>
+
+
+  <div class="warning" id="warning-i">
+    <p class="header">
+      Warning
+    </p>
+    <ui class="small-text">
+      <li class="">
+        Pottential fire at 9:00 AM
+      </li>
+      <li class="">
+        Be aware of the birds.
+      </li>
+    </ui>
+  </div>
+
+  <div class="legend" id="legend-i">
+    <p class="header">
+      Legends
+    </p>
+    <ui class="small-text" style="font-size: 12px">
+      <li class="">
+        &#x1F985; Wild Birds
+      </li>
+      <li class="">
+        &#x1F40D; Reptiles
+      </li>
+      <li class="">
+        &#x1F981; Wild Animals
+      </li>
+      <li class="">
+        &#x1F404; Friendly Animals
+      </li>
+      <li class="">
+        &#x1F54A; Friendly Birds
+      </li>
+
+
+    </ui>
+  </div>
+
+  <div class="map-box">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100985.86197653976!2d-119.63575800957908!3d37.724179977869966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8096f09df58aecc5%3A0x2d249c2ced8003fe!2sYosemite%20National%20Park!5e0!3m2!1sen!2sus!4v1656468054849!5m2!1sen!2sus"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="simple-box" id="simple-box-i">
+
+
+    <div class="expand-box" id="expand" onclick="expand_func()">
+      <button class="trans-pare-btn">
+        <span class="material-symbols-outlined" id="expand-circle">
+          expand_circle_down
+        </span></button>
+    </div>
+
+
+    <div class="rating" id="rating-box">
+      <p class="simple-grid-font" id="Rating">
+        Match Not Found
+      </p>
+    </div>
+    <div class="simple-grid-style" id="simple-grid-i">
+      
+    </div>
+    
+    <div class="expand-box-cont" id="expand-grid">
+
+    </div>
+
+    <div class="info">
+      <h1 style="display:block">
+        Fun Facts:
+      </h1>
+      <p class="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id ad commodi exercitationem minus eum, nemo officiis, ducimus sint adipisci similique nihil sed quaerat deserunt architecto aliquam sit unde mollitia?
+      </p>
+
+      <h1 style="display:block">
+        About:
+      </h1>
+      <p class="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id ad commodi exercitationem minus eum, nemo officiis, ducimus sint adipisci similique nihil sed quaerat deserunt architecto aliquam sit unde mollitia?
+      </p>
+      
+
+    </div>
+
+
+  </div>
+
+  <div class="simple-nav">
+    <div class="left-btn">
+      <button class="compare-btn"><a href="./index.html" class="simple-ref">Cancel</a></button>
+    </div>
+
+    <div class="middle-btn" id="play">
+      <button class="compare-btn" id="p" onclick="play()"><span class="material-symbols-outlined">
+          play_circle
+        </span></button>
+    </div>
+
+    <div class="right-btn">
+      <button class="compare-btn"><a href="./modify.html" class="simple-ref">Modify</a></button>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Bootstrap Script AIzaSyABACZfJz2mZbS7CvOx3sz8HH4p91LNQkE -->
+  <script type="module" src="index.js"></script>
+  <script src="./scripts/json-loader.js"></script>
+</body>
+
+</html>

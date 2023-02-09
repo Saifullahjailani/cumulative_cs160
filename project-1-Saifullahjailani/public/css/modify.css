@@ -1,0 +1,104 @@
+
+#modify .simple-nav{
+    grid-template-columns: 1fr 1fr;
+}
+
+#modify .simple-box{
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    opacity: 0.8;
+    border-radius: 0;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#modify .simple-box .rating #Rating{
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+
+#modify .map-box{
+    opacity: 0.8;
+    z-index: -1;
+    top: -150px;
+   height: 200vh;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+    color: black;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+#scales{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+input {
+    margin: .4rem;
+}
+
+.check-b-box{
+    height: auto;
+    margin-top: 40px;
+}
+
+
+
+.compare .simple-nav-o{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    border-radius: 20%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 10000000;
+    
+}
+
+.simple-nav-o-o{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.table{
+    background: rgba(255, 255, 255, 0.404);
+}
+
+.expand-box-cc-mod{
+    position: fixed;
+    top: 0;
+    background-color: rgba(45, 113, 172, 0.575);
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x:scroll;
+    padding: 20px;
+    white-space: nowrap;
+    z-index: 0;
+    display: flex;;
+    justify-content: center;
+    align-content: center;
+
+}

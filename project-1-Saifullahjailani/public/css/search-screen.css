@@ -1,0 +1,164 @@
+.search-box{
+    position: fixed;
+    top:40vh ;
+}
+
+.simple-box{
+    position: fixed;
+    bottom: 0;
+    height: 50vh;
+    background-color: white;
+    width: 100vw;
+    opacity: 0.9;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    justify-content: center;
+    z-index: 100;
+}
+
+
+.simple-nav{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    border-radius: 20%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 1000000;
+    
+}
+
+.middle-btn, .right-btn, .left-btn{
+    display: flex;
+    align-items: center
+}
+
+.middle-btn .compare-btn, 
+.right-btn .compare-btn,
+.left-btn .compare-btn{
+    width: 100%;
+    border-radius: 20%;
+    height: 100%;
+}
+.middle-btn .compare-btn{
+    width: 100%;
+    border-radius: 50% 50% 50% 50%;
+    height: 100%;
+}
+
+
+.rating{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-font{
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:red;
+    font-weight: bold;
+
+}
+
+.simple-grid-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    justify-items: flex-start;
+}
+
+
+.expand-box{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    transform: rotate(180deg);
+    height: 30px;
+
+}
+
+#expand-circle{
+    font-size: 30px;
+
+}
+
+.trans-pare-btn{
+    border-style: none;
+    background-color: white;
+
+}
+
+.expand-box-cont{
+    background-color: aliceblue;
+    height: 150px;
+    flex-direction: row;
+    width: 100vw;
+    overflow-x:scroll;
+    padding: 20px;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    align-self: center;
+
+}
+
+.expand-img{
+    height: 100%;
+    width: 30vw;
+    margin-left: 5px;
+    margin-right: 5px;;
+}
+
+.info{
+    display: flex;
+    padding: 20px;
+    width: 100vw;
+    height: 200px;
+    overflow-y: scroll;
+    flex-direction: column;
+
+}
+.di{
+    display:inline-block;
+
+}
+
+
+.expand-box-cc{
+    position: fixed;
+    top: 0;
+    background-color: rgba(45, 113, 172, 0.575);
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x:scroll;
+    padding: 20px;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 0;
+    align-self: center;
+
+}
+
+.custom{
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background-color: #f44336;
+    display: flex;
+    z-index:100;
+    padding: 5px;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+
