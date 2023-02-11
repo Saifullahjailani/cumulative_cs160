@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Login {
+  background-image: url("../../assets/Login\ Input.png");
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myH {
+  align-items: center;
+  margin-top: 20vh;
+  color: white;
+  text-align: center;
+}

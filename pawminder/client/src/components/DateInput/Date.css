@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  top: 0;
+}
+.Date {
+  width: 70vw;
+  height: 50px;
+  background: rgba(24, 22, 22, 0.25);
+  border-radius: 65px;
+  border: none;
+  box-sizing: border-box;
+  padding: 18px 15px;
+
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: white;
+  position: absolute;
+}

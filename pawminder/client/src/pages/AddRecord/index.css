@@ -1,0 +1,23 @@
+.myForm {
+  width: 90vw;
+  height: 30vh;
+  margin-bottom: 3vh;
+  box-sizing: border-box;
+  border: none;
+}
+.formLabel {
+  color: #5d5c5d;
+  font-size: 120%;
+}
+
+.inpForm {
+  margin-top: 3vh;
+  border: none;
+  border-bottom: 0.25vh solid black;
+  width: 100%;
+  font-size: 90%;
+}
+
+.inpForm:focus {
+  outline-width: 0;
+}

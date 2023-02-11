@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.healthTracking {
+  margin-top: 20%;
+}
+.healthTracking button {
+  background-color: transparent;
+  border: none;
+}
+
+.healthTracking div {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30%;
+  box-sizing: border-box;
+}
+
+.healthTracking p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  /* identical to box height, or 24px */
+  letter-spacing: 0.01em;
+  font-size: 200%;
+  /* Pet Adopt Color/Black Color Pet Dopt */
+  flex: 1;
+  color: #5f5b5b;
+  text-align: center;
+}
+.lowerdiv {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}

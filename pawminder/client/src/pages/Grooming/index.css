@@ -1,0 +1,38 @@
+.new-pallet-grooming {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 5%;
+  border-radius: 1.5rem;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+.new-pallet-grooming-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  border-radius: 1.5rem;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  padding: 1rem;
+}
+.left-al {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.new-pallet-grooming .left-al {
+  justify-self: flex-end;
+  margin-top: 0.4rem;
+}
+
+.centerLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}

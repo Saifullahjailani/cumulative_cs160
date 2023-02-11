@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 10px;
+  gap: 10px;
+  width: 70vw;
+  height: 6.2vh;
+  border: none;
+  background: #8f839f;
+  border-radius: 65px;
+  position: absolute;
+}
+.button:active {
+  animation: scaling 0.3s forwards;
+}
+
+@keyframes scaling {
+  100% {
+    transform: scale(1);
+  }
+  0% {
+    transform: scale(0.9);
+  }
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.button > p {
+  width: 299px;
+  height: 22px;
+
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bottomVacRec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftDiv {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  flex: 1;
+  row-gap: 2vh;
+}
+
+.info {
+  margin-top: 10vh;
+  grid-column: 1 / -1;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  color: #5d5c5d;
+}
+
+.leftA {
+  text-align: right;
+}
+
+.leftDiv p {
+  color: #5d5c5d;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+}
+.middleText {
+  margin-top: 2vh;
+  font-family: "Rubik";
+  font-style: normal;
+  text-align: center;
+
+  /* Text/Gray */
+
+  color: #5d5c5d;
+  font-size: 3vh;
+}

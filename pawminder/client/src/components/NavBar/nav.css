@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  top: 90vh;
+  left: 0;
+}
+
+.nav > button {
+  box-sizing: border-box;
+  border: none;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.nav > button:active {
+  animation: scaling 0.3s forwards;
+}
+
+@keyframes scaling {
+  100% {
+    transform: scale(1);
+  }
+  0% {
+    transform: scale(0.9);
+  }
+}
+.left {
+  background-image: url("../../assets/leftLogo.svg") !important;
+}
+
+.middle {
+  background-image: url("../../assets/middleLogo.svg") !important;
+}
+
+.right {
+  background-image: url("../../assets/rightLogo.png") !important;
+}

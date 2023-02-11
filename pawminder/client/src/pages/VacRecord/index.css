@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.VacDisplay {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+.singleRecord {
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  border-radius: 4%;
+  border: none;
+  padding: 4%;
+  margin-bottom: 3vh;
+}
+
+.nameText {
+  font-size: 3vh;
+  color: #8f839f;
+}
+
+.hospital {
+  font-size: 2vh;
+  margin-bottom: 1%;
+  color: #5d5c5d;
+}
+
+.dateFormat {
+  font-size: 1.8vh;
+  color: #5d5c5d;
+}
+
+.add-btn-vac {
+  position: absolute;
+  background: transparent;
+  border: none;
+  top: 84vh;
+  left: 80vw;
+}

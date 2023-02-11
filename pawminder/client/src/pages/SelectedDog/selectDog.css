@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.board {
+  height: 56%;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 44%;
+  left: 0;
+  border-radius: 8% 8% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.title-box {
+  height: 4vh;
+  width: 100%;
+}
+.infoSelectDog {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 2%;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vh;
+  line-height: 100%;
+
+  letter-spacing: 0.01em;
+
+  color: #5f5b5b;
+}
+
+.MiniBox {
+  border: 2px solid #382a2a;
+  border-radius: 10%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%;
+}
+
+.miniText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #b4aeae;
+}
+.topText {
+  color: #827397;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 100%;
+}

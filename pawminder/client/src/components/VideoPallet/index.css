@@ -1,0 +1,18 @@
+.VideoPallet {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 2vw;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+}
+
+.LowerDivVideo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.VideoPalletTitle {
+  font-size: 130%;
+}

@@ -1,0 +1,44 @@
+.reminder-Palletes {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 90%;
+  row-gap: 10%;
+  margin-bottom: 4vh;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  height: 15vh;
+  border-radius: 4%;
+  padding: 8%;
+}
+
+.left-aligh-rem {
+  text-align: right;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+right-aligh-rem {
+  text-align: left;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.activity {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5vh;
+  line-height: 140%;
+  color: #8f839f;
+}
+
+.date-and-time {
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 2vh;
+  color: #8f839f;
+}
+
+.haha-box {
+  display: flex;
+  flex-direction: column;
+}

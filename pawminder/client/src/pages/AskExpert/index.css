@@ -1,0 +1,11 @@
+.videos-Display {
+  border-radius: 3vw;
+  width: 80vw;
+  height: 60vh;
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

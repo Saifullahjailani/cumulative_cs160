@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.SolidTopBar {
+  color: #5f5b5b;
+  display: flex;
+
+  font-size: 4vh;
+  font-family: "Poppins";
+
+  height: 10vh;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 3vh;
+  box-sizing: border-box;
+}
+
+.title-solid {
+  position: relative;
+  text-align: center;
+  left: 28%;
+}
+
+.ProfileHandle {
+  position: relative;
+  left: 45%;
+}
+
+.ProfileHandleButton {
+  background-color: transparent;
+  border: none;
+}
+
+.checkers {
+  display: flex;
+  flex-direction: row;
+  gap: 3vh;
+  margin-bottom: 0.5vh;
+  height: 3vh;
+}
+.box-check {
+  height: 3vh;
+}
+
+.myMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainMenuComp {
+  width: 80vw;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  height: 40vh;
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  box-sizing: border-box;
+  padding: 3vw;
+  border-radius: 3vw;
+  row-gap: 3vh;
+  z-index: 15;
+}
+.title-main {
+  text-align: center;
+}
+
+.filterBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  position: absolute;
+  left: 10vw;
+  top: 10vh;
+  height: 10vh;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10vw;
+  height: 7vh;
+  box-sizing: border-box;
+  padding: 2vw;
+}
